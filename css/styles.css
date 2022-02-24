@@ -1,0 +1,21 @@
+/* основний светлий цвет текста #9DA4BD */
+/* вторичный светлий цвет текста rgba(157, 164, 189, 0.6) */
+/* цвет текста белый #FFFFFF */
+/* основной темный цвет текста #303030 */
+/* вторичный темный цвет текста #555555 */
+/* цвет формы rgba(157, 164, 189, 0.4) */
+/* цвет акцент #FF6C00 */
+/* основний цвет фона #FFFFFF */
+/* вторичный цвет фона #F7F7F7 */
+
+:root {
+  --basic-light-color-text--: #9da4bd;
+  --secondary-light-color-text--: rgba(157, 164, 189, 0.6);
+  --text-color-white--: #ffffff;
+  --basic-dark-color-text--: #303030;
+  --secondary-dark-color-text--: #555555;
+  --form-color--: rgba(157, 164, 189, 0.4);
+  --accent-color: #ff6c00;
+  --background-basic-color--: #ffffff;
+  --background-secondary-color--: #f7f7f7;
+}
