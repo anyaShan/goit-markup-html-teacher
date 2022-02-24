@@ -15,7 +15,95 @@
   --basic-dark-color-text--: #303030;
   --secondary-dark-color-text--: #555555;
   --form-color--: rgba(157, 164, 189, 0.4);
-  --accent-color: #ff6c00;
+  --accent-color--: #ff6c00;
   --background-basic-color--: #ffffff;
   --background-secondary-color--: #f7f7f7;
+}
+body {
+  background-color: var(--background-basic-color--);
+
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.02em;
+}
+.link {
+  text-decoration: none;
+}
+.list {
+  list-style: none;
+}
+
+/* Header */
+
+header {
+  background-color: black;
+}
+.header-nav-list,
+.header-contacts-mail {
+  color: var(--text-color-white--);
+
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+}
+.header-nav-item:hover,
+.header-nav-item:focus {
+  color: var(--accent-color--);
+}
+.header-contacts-mail {
+  text-transform: uppercase;
+}
+.header-contacts-mail:hover,
+.header-contacts-mail:focus {
+  color: var(--accent-color--);
+}
+
+/* Link */
+
+.hero-link-title {
+  visibility: hidden;
+}
+.hero-link-list {
+  color: var(--basic-dark-color-text--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.hero-link-item:hover,
+.hero-link-item:focus {
+  color: var(--accent-color--);
+}
+
+/* Hero */
+.hero {
+  background-color: black;
+}
+.hero-info {
+  color: var(--secondary-dark-color-text--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.hero-title {
+  color: var(--text-color-white--);
+  font-family: 'Raleway', sans-serif;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+}
+.hero-text {
+  color: var(--text-color-white--);
+}
+
+/* Sections */
+
+.section {
+  color: var(--basic-dark-color-text--);
+}
+.section-title {
+  font-family: 'Raleway', sans-serif;
 }
