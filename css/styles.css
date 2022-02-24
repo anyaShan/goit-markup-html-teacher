@@ -107,3 +107,57 @@ header {
 .section-title {
   font-family: 'Raleway', sans-serif;
 }
+
+/* Features */
+
+.features-info {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.features-info-text {
+  color: var(--secondary-dark-color-text--);
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+.features-text {
+  color: var(--secondary-dark-color-text--);
+
+  font-size: 14px;
+  line-height: 1.86;
+}
+
+/* Buttons */
+
+.button {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+
+  border: 1px solid var(--accent-color--);
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+.primary,
+.sent {
+  color: var(--text-color-white--);
+}
+.primary:hover,
+.sent:hover,
+.primary:focus,
+.sent:focus {
+  color: var(--accent-color--);
+}
+.secondary {
+  color: var(--basic-dark-color-text--);
+}
+.secondary:hover,
+.secondary:focus {
+  color: var(--text-color-white--);
+}
