@@ -37,7 +37,7 @@ body {
 header {
   background-color: black;
 }
-.header-nav-list,
+.header-nav-link,
 .header-contacts-mail {
   color: var(--text-color-white--);
 
@@ -46,11 +46,12 @@ header {
   line-height: 1.33;
   letter-spacing: 0.1em;
 }
-.header-nav-item {
+.header-nav-link {
+  font-style: normal;
   cursor: pointer;
 }
-.header-nav-item:hover,
-.header-nav-item:focus {
+.header-nav-link:hover,
+.header-nav-link:focus {
   color: var(--accent-color--);
 }
 .header-contacts-mail {
