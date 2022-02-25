@@ -46,6 +46,9 @@ header {
   line-height: 1.33;
   letter-spacing: 0.1em;
 }
+.header-nav-item {
+  cursor: pointer;
+}
 .header-nav-item:hover,
 .header-nav-item:focus {
   color: var(--accent-color--);
@@ -69,6 +72,9 @@ header {
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
+}
+.hero-link-item {
+  cursor: pointer;
 }
 .hero-link-item:hover,
 .hero-link-item:focus {
@@ -106,6 +112,9 @@ header {
 }
 .section-title {
   font-family: 'Raleway', sans-serif;
+  font-size: 42px;
+  line-height: 1.17;
+  letter-spacing: 0.05em;
 }
 
 /* Features */
@@ -130,10 +139,179 @@ header {
   line-height: 1.86;
 }
 
+/* Servis and Price  */
+
+.servis-content {
+  background-color: black;
+
+  color: var(--basic-light-color-text--);
+}
+.servis-info {
+  color: var(--secondary-light-color-text--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.servis-title {
+  color: var(--text-color-white--);
+}
+
+/* Value */
+
+.value-item {
+  background-color: var(--background-secondary-color--);
+  text-align: center;
+}
+.value-item b {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1, 36;
+  letter-spacing: 0.05em;
+}
+.value-item p {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.value-info {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.value-info-text {
+  color: var(--secondary-dark-color-text--);
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+/* Team */
+.team-content {
+  background-color: var(--background-secondary-color--);
+}
+.team-info {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.team-caption {
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+}
+.team-text {
+  color: var(--accent-color--);
+
+  font-size: 14px;
+  line-height: 1.36;
+  text-align: center;
+}
+
+/* Gallery */
+
+.gallery-info {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.gallery-title {
+  visibility: hidden;
+}
+
+/* Form */
+.form-content {
+  background-color: black;
+}
+.form-title {
+  color: var(--text-color-white--);
+}
+form {
+  color: var(--form-color--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+form label:hover {
+  color: var(--text-color-white--);
+}
+
+/* Contacts */
+
+.contacts-content {
+  background-color: black;
+}
+.contacts-title {
+  color: var(--text-color-white--);
+}
+.address-list a {
+  color: var(--basic-light-color-text--);
+
+  font-style: normal;
+  font-size: 18px;
+  line-height: 1.67;
+}
+.address-list a:hover,
+.address-list a:focus {
+  color: var(--accent-color--);
+}
+.contacts-caption {
+  color: var(--text-color-white--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.contacts-text {
+  color: var(--basic-light-color-text--);
+
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+/* Footer */
+
+.footer-text {
+  color: var(--basic-light-color-text--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.footer-link-list {
+  color: var(--basic-dark-color-text--);
+
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+}
+.footer-link-item {
+  cursor: pointer;
+}
+.footer-link-item:hover,
+.footer-link-item:focus {
+  color: var(--accent-color--);
+}
+
 /* Buttons */
 
 .button {
   background-color: transparent;
+  cursor: pointer;
+
   font-weight: 600;
   font-size: 12px;
   line-height: 1.33;
