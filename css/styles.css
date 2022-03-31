@@ -31,8 +31,19 @@ body {
 .list {
   list-style: none;
 }
-
-/* Header */
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+/* --------------------------Header----------------------- */
 
 header {
   background-color: black;
@@ -62,7 +73,7 @@ header {
   color: var(--accent-color--);
 }
 
-/* Link */
+/* ---------------------------Link------------------------- */
 
 .hero-link-title {
   visibility: hidden;
@@ -82,7 +93,7 @@ header {
   color: var(--accent-color--);
 }
 
-/* Hero */
+/* ----------------------------Hero------------------------- */
 .hero {
   background-color: black;
 }
@@ -106,7 +117,7 @@ header {
   color: var(--text-color-white--);
 }
 
-/* Sections */
+/* ------------------------Sections----------------- */
 
 .section {
   color: var(--basic-dark-color-text--);
@@ -118,7 +129,7 @@ header {
   letter-spacing: 0.05em;
 }
 
-/* Features */
+/* -------------------------Features------------------- */
 
 .features-info {
   font-weight: 600;
@@ -140,7 +151,7 @@ header {
   line-height: 1.86;
 }
 
-/* Servis and Price  */
+/* -------------------------Servis and Price-----------  */
 
 .servis-content {
   background-color: black;
@@ -160,7 +171,7 @@ header {
   color: var(--text-color-white--);
 }
 
-/* Value */
+/* --------------------------Value------------------ */
 
 .value-item {
   background-color: var(--background-secondary-color--);
@@ -191,7 +202,7 @@ header {
   line-height: 1.67;
 }
 
-/* Team */
+/* --------------------------------Team-------------------------- */
 .team-content {
   background-color: var(--background-secondary-color--);
 }
@@ -215,7 +226,7 @@ header {
   text-align: center;
 }
 
-/* Gallery */
+/* -----------------------------Gallery-------------------------- */
 
 .gallery-info {
   font-weight: 600;
@@ -228,7 +239,7 @@ header {
   visibility: hidden;
 }
 
-/* Form */
+/* ------------------------------Form--------------------------- */
 .form-content {
   background-color: black;
 }
@@ -248,7 +259,7 @@ form label:hover {
   color: var(--text-color-white--);
 }
 
-/* Contacts */
+/* ---------------------------Contacts----------------------------- */
 
 .contacts-content {
   background-color: black;
@@ -283,7 +294,7 @@ form label:hover {
   line-height: 1.67;
 }
 
-/* Footer */
+/* ----------------------------------Footer--------------------- */
 
 .footer-text {
   color: var(--basic-light-color-text--);
@@ -307,7 +318,7 @@ form label:hover {
   color: var(--accent-color--);
 }
 
-/* Buttons */
+/* -------------------------------Buttons------------------------ */
 
 .button {
   background-color: transparent;
