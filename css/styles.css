@@ -7,6 +7,7 @@
 /* цвет акцент #FF6C00 */
 /* основний цвет фона #FFFFFF */
 /* вторичный цвет фона #F7F7F7 */
+/* цвет градиента списка #171A24 */
 
 :root {
   --basic-light-color-text--: #9da4bd;
@@ -18,6 +19,8 @@
   --accent-color--: #ff6c00;
   --background-basic-color--: #ffffff;
   --background-secondary-color--: #f7f7f7;
+  --gradient-list-start: #171A24;
+  --gradient-list-end: rgba(23, 26, 36, 0.2);
 }
 body {
   background-color: var(--background-basic-color--);
@@ -211,19 +214,36 @@ img {
 /* -------------------------Features------------------- */
 
 .features-info {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.features-info::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--basic-dark-color-text--);
+}
+.features-title {
+  margin-bottom: 20px;
+}
 .features-info-text {
+  margin-bottom: 20px;
   color: var(--secondary-dark-color-text--);
 
   font-size: 18px;
   line-height: 1.67;
 }
 .features-text {
+  margin-bottom: 40px;
   color: var(--secondary-dark-color-text--);
 
   font-size: 14px;
@@ -238,6 +258,9 @@ img {
   color: var(--basic-light-color-text--);
 }
 .servis-info {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
   color: var(--secondary-light-color-text--);
 
   font-weight: 600;
@@ -246,8 +269,32 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.servis-info::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--secondary-dark-color-text--);
+}
 .servis-title {
+  margin-bottom: 44px;
   color: var(--text-color-white--);
+}
+.servis-list-first,
+.servis-list-second {
+padding: 30px 40px;
+
+background-image: linear-gradient(
+  to bottom,
+var(--gradient-list-start),
+var(--gradient-list-end)
+);
+}
+
+.servis-list-second {
+  
+  margin-bottom: 50px;
 }
 
 /* --------------------------Value------------------ */
@@ -268,11 +315,26 @@ img {
   line-height: 1.36;
 }
 .value-info {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.value-info::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--basic-dark-color-text--);
+}
+.value-title {
+  margin-bottom: 20px;
 }
 .value-info-text {
   color: var(--secondary-dark-color-text--);
@@ -286,18 +348,39 @@ img {
   background-color: var(--background-secondary-color--);
 }
 .team-info {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.team-info::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--secondary-dark-color-text--);
+}
+.team-title {
+  margin-bottom: 44px;
+}
+.team-card {
+  padding: 30px 80px 0;
+}
 .team-caption {
+  margin-bottom: 8px;
+
   font-size: 18px;
   line-height: 1.39;
   text-align: center;
 }
 .team-text {
+  margin-bottom: 30px;
   color: var(--accent-color--);
 
   font-size: 14px;
@@ -308,11 +391,23 @@ img {
 /* -----------------------------Gallery-------------------------- */
 
 .gallery-info {
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 44px;
+
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.gallery-info::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--basic-dark-color-text--);
 }
 .gallery-title {
   visibility: hidden;
