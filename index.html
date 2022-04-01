@@ -22,13 +22,17 @@
 
     <header class="header">
       <div class="header-page conteiner">
-        <a href="./index.html"><img src="./images/logo.svg" alt="лого сайта" /></a>
+        <a href="./index.html" class="header-logo"
+          ><img src="./images/logo.svg" alt="лого сайта"
+        /></a>
 
         <!-- Header Navigation -->
 
         <nav class="header-nav">
           <ul class="header-nav-list list">
-            <li class="header-nav-item"><a class="header-nav-link link" href="#about">О нас</a></li>
+            <li class="header-nav-item">
+              <a class="header-nav-link link" href="#about">О нас</a>
+            </li>
             <li class="header-nav-item">
               <a class="header-nav-link link" href="#servis">Услуги и цены</a>
             </li>
@@ -57,27 +61,32 @@
     <!-- Conteiner About -->
 
     <main>
-      <!-- section Link -->
-
-      <section class="hero-link">
-        <div class="conteiner">
-          <h2 class="hero-link-title visually-hidden">Ссылки</h2>
-          <ul class="hero-link-list list">
-            <li class="hero-link-item"><a href="" target="_blank"></a>Instagram</li>
-            <li class="hero-link-item"><a href="" target="_blank"></a>Youtube</li>
-          </ul>
-        </div>
-      </section>
-
       <!-- section Hero -->
 
       <section class="hero">
-        <div class="conteiner">
-          <p lang="en" class="hero-info">A hair salon for men in Kyiv</p>
-          <h1 lang="en" class="hero-title">BarberShop</h1>
-          <p class="hero-text">
-            Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
-          </p>
+        <div class="hero-page conteiner">
+          <!-- Hero Link -->
+
+          <div class="hero-link">
+            <ul class="hero-link-list list">
+              <li class="hero-link-item">
+                <a href="" aria-label="instagram" target="_blank"></a>Instagram
+              </li>
+              <li class="hero-link-item">
+                <a href="" aria-label="youtube" target="_blank"></a>Youtube
+              </li>
+            </ul>
+          </div>
+
+          <!-- Hero Page -->
+
+          <div class="hero-info">
+            <p lang="en" class="hero-caption">A hair salon for men in Kyiv</p>
+            <h1 lang="en" class="hero-title">BarberShop</h1>
+            <p class="hero-text">
+              Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -292,7 +301,7 @@
 
       <!-- section Info -->
 
-      <section class="info-content">
+      <section class="info-content section">
         <div class="conteiner">
           <!-- section Form -->
 

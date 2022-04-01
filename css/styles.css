@@ -25,6 +25,13 @@ body {
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.02em;
 }
+h1,
+h2,
+h3,
+ul,
+p {
+  margin: 0;
+}
 img {
   display: block;
   max-width: 100%;
@@ -40,6 +47,8 @@ img {
   text-decoration: none;
 }
 .list {
+  padding: 0;
+  margin: 0;
   list-style: none;
 }
 .visually-hidden {
@@ -57,7 +66,25 @@ img {
 /* --------------------------Header----------------------- */
 
 .header {
+  padding-top: 32px;
   background-color: black;
+}
+.header-page {
+  outline: 2px solid green;
+  display: flex;
+  align-items: center;
+  
+}
+.header-logo {
+  margin-right: 60px;
+}
+.header-nav-list {
+  display: flex;
+  align-items: center;
+}
+.header-nav-item:not(:last-child),
+.header-contacts-item:not(:last-child) {
+  margin-right: 40px;
 }
 .header-nav-link,
 .header-contacts-mail {
@@ -69,46 +96,72 @@ img {
   letter-spacing: 0.1em;
 }
 .header-nav-link {
+  display: block;
+  padding: 10px 0;
+
   font-style: normal;
   cursor: pointer;
 }
 .header-nav-link:hover,
-.header-nav-link:focus {
-  color: var(--accent-color--);
-}
-.header-contacts-mail {
-  text-transform: uppercase;
-}
+.header-nav-link:focus,
 .header-contacts-mail:hover,
 .header-contacts-mail:focus {
   color: var(--accent-color--);
 }
-
-/* ---------------------------Link------------------------- */
-
-.hero-link-title {
-  visibility: hidden;
+.header-contacts {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
 }
+.header-contacts-mail {
+  text-transform: uppercase;
+}
+/* ----------------------------- Hero --------------------- */
+.hero {
+  padding-bottom: 40px;
+  background-color: black; 
+}
+/* --------------------------- Hero Link------------------------- */
+
 .hero-link-list {
+  outline: 2px solid green;
+  display: flex;
+  align-items: center;
+  height: 66px;
   color: var(--basic-dark-color-text--);
 
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
+} 
+.hero-link-list::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--basic-dark-color-text--);
 }
 .hero-link-item {
   cursor: pointer;
+}
+.hero-link-item:not(:last-child) {
+  margin-right: 40px;
 }
 .hero-link-item:hover,
 .hero-link-item:focus {
   color: var(--accent-color--);
 }
 
-/* ----------------------------Hero------------------------- */
-.hero {
-  background-color: black;
-}
+/* ----------------------------Hero Page------------------------- */
+
 .hero-info {
+  display: block;
+  outline: 2px solid green;
+}
+.hero-caption {
+  display: inline-flex;
+  align-items: center;
   color: var(--secondary-dark-color-text--);
 
   font-weight: 600;
@@ -117,20 +170,34 @@ img {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.hero-caption::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--secondary-dark-color-text--);
+}
+
 .hero-title {
   color: var(--text-color-white--);
+
   font-family: 'Raleway', sans-serif;
   font-size: 72px;
   line-height: 1.18;
   letter-spacing: 0.05em;
 }
 .hero-text {
-  color: var(--text-color-white--);
+  color: var(--basic-light-color-text--);
+
+  font-size: 18px;
+  line-height: 1.67px;
 }
 
 /* ------------------------Sections----------------- */
 
 .section {
+  padding: 130px 0;
   color: var(--basic-dark-color-text--);
 }
 .section-title {
@@ -332,6 +399,9 @@ form label:hover {
 /* -------------------------------Buttons------------------------ */
 
 .button {
+  display: inline-block;
+  min-width: 160px;
+  padding: 12px 20px;
   background-color: transparent;
   cursor: pointer;
 
@@ -349,16 +419,11 @@ form label:hover {
 .sent {
   color: var(--text-color-white--);
 }
-.primary:hover,
-.sent:hover,
-.primary:focus,
-.sent:focus {
-  color: var(--accent-color--);
-}
 .secondary {
   color: var(--basic-dark-color-text--);
 }
-.secondary:hover,
-.secondary:focus {
-  color: var(--text-color-white--);
+.button:hover, 
+.button:focus {
+  text-decoration: underline;
 }
+
