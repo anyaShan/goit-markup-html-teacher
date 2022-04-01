@@ -10,20 +10,20 @@
 /* цвет градиента списка #171A24 */
 
 :root {
-  --basic-light-color-text--: #9da4bd;
-  --secondary-light-color-text--: rgba(157, 164, 189, 0.6);
-  --text-color-white--: #ffffff;
-  --basic-dark-color-text--: #303030;
-  --secondary-dark-color-text--: #555555;
-  --form-color--: rgba(157, 164, 189, 0.4);
-  --accent-color--: #ff6c00;
-  --background-basic-color--: #ffffff;
-  --background-secondary-color--: #f7f7f7;
+  --basic-light-color-text: #9da4bd;
+  --secondary-light-color-text: rgba(157, 164, 189, 0.6);
+  --text-color-white: #ffffff;
+  --basic-dark-color-text: #303030;
+  --secondary-dark-color-text: #555555;
+  --form-color: rgba(157, 164, 189, 0.4);
+  --accent-color: #ff6c00;
+  --background-basic-color: #ffffff;
+  --background-secondary-color: #f7f7f7;
   --gradient-list-start: #171A24;
   --gradient-list-end: rgba(23, 26, 36, 0.2);
 }
 body {
-  background-color: var(--background-basic-color--);
+  background-color: var(--background-basic-color);
 
   font-family: 'Open Sans', sans-serif;
   letter-spacing: 0.02em;
@@ -91,7 +91,7 @@ img {
 }
 .header-nav-link,
 .header-contacts-mail {
-  color: var(--text-color-white--);
+  color: var(--text-color-white);
 
   font-weight: 600;
   font-size: 12px;
@@ -109,7 +109,7 @@ img {
 .header-nav-link:focus,
 .header-contacts-mail:hover,
 .header-contacts-mail:focus {
-  color: var(--accent-color--);
+  color: var(--accent-color);
 }
 .header-contacts {
   display: flex;
@@ -133,7 +133,7 @@ img {
   display: flex;
   align-items: center;
   height: 66px;
-  color: var(--basic-dark-color-text--);
+  color: var(--basic-dark-color-text);
 
   font-weight: 600;
   font-size: 11px;
@@ -145,7 +145,7 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text--);
+  background-color: var(--basic-dark-color-text);
 }
 .hero-link-item {
   cursor: pointer;
@@ -155,7 +155,7 @@ img {
 }
 .hero-link-item:hover,
 .hero-link-item:focus {
-  color: var(--accent-color--);
+  color: var(--accent-color);
 }
 
 /* ----------------------------Hero Info------------------------- */
@@ -166,7 +166,7 @@ img {
 .hero-caption {
   display: inline-flex;
   align-items: center;
-  color: var(--secondary-dark-color-text--);
+  color: var(--secondary-dark-color-text);
 
   font-weight: 600;
   font-size: 11px;
@@ -180,11 +180,11 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--secondary-dark-color-text--);
+  background-color: var(--secondary-dark-color-text);
 }
 
 .hero-title {
-  color: var(--text-color-white--);
+  color: var(--text-color-white);
 
   font-family: 'Raleway', sans-serif;
   font-size: 72px;
@@ -192,7 +192,7 @@ img {
   letter-spacing: 0.05em;
 }
 .hero-text {
-  color: var(--basic-light-color-text--);
+  color: var(--basic-light-color-text);
 
   font-size: 18px;
   line-height: 1.67px;
@@ -202,7 +202,7 @@ img {
 
 .section {
   padding: 130px 0;
-  color: var(--basic-dark-color-text--);
+  color: var(--basic-dark-color-text);
 }
 .section-title {
   font-family: 'Raleway', sans-serif;
@@ -230,21 +230,21 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text--);
+  background-color: var(--basic-dark-color-text);
 }
 .features-title {
   margin-bottom: 20px;
 }
 .features-info-text {
   margin-bottom: 20px;
-  color: var(--secondary-dark-color-text--);
+  color: var(--secondary-dark-color-text);
 
   font-size: 18px;
   line-height: 1.67;
 }
 .features-text {
   margin-bottom: 40px;
-  color: var(--secondary-dark-color-text--);
+  color: var(--secondary-dark-color-text);
 
   font-size: 14px;
   line-height: 1.86;
@@ -255,13 +255,13 @@ img {
 .servis-content {
   background-color: black;
 
-  color: var(--basic-light-color-text--);
+  color: var(--basic-light-color-text);
 }
 .servis-info {
   display: inline-flex;
   align-items: center;
   margin-bottom: 20px;
-  color: var(--secondary-light-color-text--);
+  color: var(--secondary-light-color-text);
 
   font-weight: 600;
   font-size: 11px;
@@ -275,11 +275,11 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--secondary-dark-color-text--);
+  background-color: var(--secondary-dark-color-text);
 }
 .servis-title {
   margin-bottom: 44px;
-  color: var(--text-color-white--);
+  color: var(--text-color-white);
 }
 .servis-list-first,
 .servis-list-second {
@@ -300,7 +300,7 @@ var(--gradient-list-end)
 /* --------------------------Value------------------ */
 
 .value-item {
-  background-color: var(--background-secondary-color--);
+  background-color: var(--background-secondary-color);
   text-align: center;
 }
 .value-item b {
@@ -331,13 +331,13 @@ var(--gradient-list-end)
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text--);
+  background-color: var(--basic-dark-color-text);
 }
 .value-title {
   margin-bottom: 20px;
 }
 .value-info-text {
-  color: var(--secondary-dark-color-text--);
+  color: var(--secondary-dark-color-text);
 
   font-size: 18px;
   line-height: 1.67;
@@ -345,7 +345,7 @@ var(--gradient-list-end)
 
 /* --------------------------------Team-------------------------- */
 .team-content {
-  background-color: var(--background-secondary-color--);
+  background-color: var(--background-secondary-color);
 }
 .team-info {
   display: inline-flex;
@@ -364,7 +364,7 @@ var(--gradient-list-end)
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--secondary-dark-color-text--);
+  background-color: var(--secondary-dark-color-text);
 }
 .team-title {
   margin-bottom: 44px;
@@ -381,7 +381,7 @@ var(--gradient-list-end)
 }
 .team-text {
   margin-bottom: 30px;
-  color: var(--accent-color--);
+  color: var(--accent-color);
 
   font-size: 14px;
   line-height: 1.36;
@@ -407,21 +407,24 @@ var(--gradient-list-end)
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text--);
+  background-color: var(--basic-dark-color-text);
 }
 .gallery-title {
   visibility: hidden;
 }
 
-/* ------------------------------Form--------------------------- */
-.form-content {
+/* -------------------------------Info--------------------------- */
+.info-content {
   background-color: black;
 }
+
+/* ------------------------------Form--------------------------- */
+
 .form-title {
-  color: var(--text-color-white--);
+  color: var(--text-color-white);
 }
 form {
-  color: var(--form-color--);
+  color: var(--form-color);
 
   font-weight: 600;
   font-size: 11px;
@@ -430,19 +433,23 @@ form {
   text-transform: uppercase;
 }
 form label:hover {
-  color: var(--text-color-white--);
+  color: var(--text-color-white);
 }
 
 /* ---------------------------Contacts----------------------------- */
 
-.contacts-content {
-  background-color: black;
-}
 .contacts-title {
-  color: var(--text-color-white--);
+  margin-bottom: 40px;
+  color: var(--text-color-white);
 }
-.address-list a {
-  color: var(--basic-light-color-text--);
+.address {
+  margin-bottom: 70px;
+}
+.address-list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.address-list-item a {
+  color: var(--basic-light-color-text);
 
   font-style: normal;
   font-size: 18px;
@@ -450,10 +457,14 @@ form label:hover {
 }
 .address-list a:hover,
 .address-list a:focus {
-  color: var(--accent-color--);
+  color: var(--accent-color);
 }
 .contacts-caption {
-  color: var(--text-color-white--);
+  display: inline-flex;
+  align-items: center;
+  margin-bottom: 20px;
+
+  color: var(--text-color-white);
 
   font-weight: 600;
   font-size: 11px;
@@ -461,35 +472,67 @@ form label:hover {
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
+.contacts-caption::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--secondary-dark-color-text);
+}
 .contacts-text {
-  color: var(--basic-light-color-text--);
+  color: var(--basic-light-color-text);
 
   font-size: 18px;
   line-height: 1.67;
 }
 
 /* ----------------------------------Footer--------------------- */
-
+footer {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background-color: var(--background-basic-color);
+}
+footer>.conteiner {
+  outline: 2px solid green;
+  display: flex;
+  align-items: center;
+}
 .footer-text {
-  color: var(--basic-light-color-text--);
+  display: flex;
+  color: var(--basic-light-color-text);
 
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
 }
 .footer-link-list {
-  color: var(--basic-dark-color-text--);
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  color: var(--basic-dark-color-text);
 
   font-weight: 600;
   font-size: 11px;
   line-height: 1.36;
 }
+.footer-link-list::before {
+  display: inline-block;
+  content: '';
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background-color: var(--basic-dark-color-text);
+}
 .footer-link-item {
   cursor: pointer;
 }
+.footer-link-item:not(:last-child) {
+  margin-right: 40px;
+}
 .footer-link-item:hover,
 .footer-link-item:focus {
-  color: var(--accent-color--);
+  color: var(--accent-color);
 }
 
 /* -------------------------------Buttons------------------------ */
@@ -507,13 +550,13 @@ form label:hover {
   letter-spacing: 0.09em;
   text-transform: uppercase;
 
-  border: 1px solid var(--accent-color--);
+  border: 1px solid var(--accent-color);
   box-sizing: border-box;
   border-radius: 25px;
 }
 .primary,
 .sent {
-  color: var(--text-color-white--);
+  color: var(--text-color-white);
 }
 .secondary {
   color: var(--basic-dark-color-text--);
