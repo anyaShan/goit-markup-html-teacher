@@ -118,13 +118,15 @@ img {
 }
 /* ----------------------------- Hero --------------------- */
 .hero {
-  padding-bottom: 40px;
   background-color: black; 
+}
+.hero-page {
 }
 /* --------------------------- Hero Link------------------------- */
 
 .hero-link-list {
   outline: 2px solid green;
+
   display: flex;
   align-items: center;
   height: 66px;
@@ -153,10 +155,9 @@ img {
   color: var(--accent-color--);
 }
 
-/* ----------------------------Hero Page------------------------- */
+/* ----------------------------Hero Info------------------------- */
 
 .hero-info {
-  display: block;
   outline: 2px solid green;
 }
 .hero-caption {
