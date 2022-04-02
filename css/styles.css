@@ -192,7 +192,7 @@ img {
 
 .hero-title {
   margin-bottom: 20px;
-  
+
   color: var(--text-color-white);
 
   font-family: 'Raleway', sans-serif;
@@ -226,6 +226,7 @@ img {
   display: flex;
 }
 .features-img-list {
+  outline: 2px solid green;
   display: flex;
   margin-right: 64px;
 }
@@ -234,10 +235,10 @@ img {
 
 }
 .features-info-inner {
+  outline: 2px solid green;
   max-width: 480px;
 }
 .features-info {
-  display: inline-flex;
   align-items: center;
   margin-bottom: 20px;
 
@@ -420,6 +421,7 @@ margin-bottom: 20px;
   line-height: 1.36;
 }
 .value-info-inner {
+  outline: 2px solid green;
   max-width: 480px;
 }
 .value-info {
