@@ -586,6 +586,9 @@ outline: 2px solid green;
 
 /* ------------------------------Form--------------------------- */
 
+.form-content {
+outline: 2px solid green;
+}
 .form-title {
   color: var(--text-color-white);
 }
@@ -604,6 +607,9 @@ form label:hover {
 
 /* ---------------------------Contacts----------------------------- */
 
+.contacts-content {
+  outline: 2px solid green;
+}
 .contacts-title {
   margin-bottom: 40px;
   color: var(--text-color-white);
