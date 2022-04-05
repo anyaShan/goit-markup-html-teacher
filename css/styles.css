@@ -73,6 +73,7 @@ img {
 
 .header {
   padding-top: 32px;
+  padding-bottom: 32px;
   background-color: var(--bg-dark-basic-color);
 }
 .header-page {
@@ -127,6 +128,9 @@ img {
 }
 /* ----------------------------- Hero --------------------- */
 .hero {
+  padding-top: 272px;
+  padding-bottom: 206px;
+  padding-left: 96px;
   background-color: var(--bg-dark-basic-color);
 }
 
