@@ -128,23 +128,24 @@ img {
 }
 /* ----------------------------- Hero --------------------- */
 .hero {
-  padding-top: 272px;
-  padding-bottom: 206px;
-  padding-left: 96px;
   background-color: var(--bg-dark-basic-color);
+}
+.hero-page {
+  display: flex;
 }
 
 /* --------------------------- Hero Link------------------------- */
 
 .hero-link {
+  /* transform: rotate(-90deg); */
   background-color: var(--background-basic-color);
 }
 .hero-link-list {
   outline: 2px solid green;
 
-  display: flex;
+  /* display: flex; */
   align-items: center;
-  height: 66px;
+  width: 93px;
   color: var(--basic-dark-color-text);
 
   font-weight: 600;
@@ -175,7 +176,10 @@ img {
 
 .hero-info {
   outline: 2px solid green;
-  width: 480px;
+  padding-top: 272px;
+  padding-bottom: 206px;
+  padding-left: 96px;
+  flex-grow: 1;
 }
 .hero-caption {
   display: inline-flex;
