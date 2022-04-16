@@ -158,7 +158,7 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text);
+  background-color: currentColor;
 }
 .hero-link-item {
   transition: color var(--transition);
@@ -200,7 +200,7 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--secondary-dark-color-text);
+  background-color: currentColor;
 }
 
 .hero-title {
@@ -267,7 +267,7 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text);
+  background-color: currentColor;
 }
 .features-title {
   margin-bottom: 20px;
@@ -312,7 +312,7 @@ img {
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--secondary-dark-color-text);
+  background-color: currentColor;
 }
 .servis-title {
   margin-bottom: 44px;
@@ -348,18 +348,15 @@ padding: 30px 40px;
 .servis-item:not(:last-child) {
 margin-bottom: 20px;
 }
-.servis-text {
-  order: 1;
-}
+
 .servis-item::after {
   content: '';
   border-bottom: 1px solid var(--secondary-dark-color-text);
   flex-grow: 1;
-  order: 2;
   margin: 0 6px;
 }
-.servis-item > span {
-  order: 3;
+.servis-text:last-child{
+  order: 1;
 }
 .servis-page {
   display: flex;
@@ -454,7 +451,7 @@ margin-bottom: 20px;
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text);
+  background-color: currentColor;
 }
 .value-title {
   margin-bottom: 20px;
@@ -487,7 +484,7 @@ margin-bottom: 20px;
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--secondary-dark-color-text);
+  background-color: currentColor;
 }
 .team-list {
   display: flex;
@@ -571,7 +568,7 @@ outline: 2px solid green;
   width: 60px;
   height: 1px;
   margin-right: 40px;
-  background-color: var(--basic-dark-color-text);
+  background-color: currentColor;
 }
 .gallery-title {
   visibility: hidden;
