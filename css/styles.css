@@ -576,14 +576,21 @@ outline: 2px solid green;
 
 /* -------------------------------Section Info--------------------------- */
 
-.info-content {
+.info-wrap {
   background-color: var(--bg-dark-basic-color);
+  /* max-width: 1280px;
+  margin-right: 0;
+  margin-left: 0; */
+  /* background-size: calc(50%-15px); */
 }
-
+.info-wrap .conteiner {
+  display: flex;
+}
 /* ------------------------------Form--------------------------- */
 
 .form-content {
 outline: 2px solid green;
+flex-grow: 1;
 }
 .form-title {
   color: var(--text-color-white);
@@ -605,6 +612,8 @@ form label:hover {
 
 .contacts-content {
   outline: 2px solid green;
+  width: calc(50% - 15px);
+  padding-left: 100px;
 }
 .contacts-title {
   margin-bottom: 40px;
