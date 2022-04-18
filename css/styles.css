@@ -138,8 +138,7 @@ img {
 /* --------------------------- Hero Link------------------------- */
 
 .hero-link {
-  /* transform: rotate(-90deg); */
-  background-color: var(--background-basic-color);
+  display: flex;
 }
 .hero-link-list {
   outline: 2px solid green;
