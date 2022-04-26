@@ -75,12 +75,12 @@ img {
 /* --------------------------Header----------------------- */
 
 .header {
+  position: absolute;
+  width: 100%;
   padding-top: 32px;
   padding-bottom: 32px;
-  background-color: var(--bg-dark-basic-color);
 }
 .header-page {
-  outline: 2px solid green;
   display: flex;
   align-items: center;
   
@@ -139,13 +139,17 @@ img {
 
 .hero-link {
   display: flex;
+  width: 93px;
+  padding-left: 22px;
+  padding-bottom: 40px;
+  align-items: flex-end;
 }
 .hero-link-list {
-  outline: 2px solid green;
-
-  /* display: flex; */
+  display: flex;
+  transform: rotate(-90deg) translate(-15px);
+  transform-origin: top left;
   align-items: center;
-  width: 93px;
+  
   color: var(--basic-dark-color-text);
 
   font-weight: 600;
